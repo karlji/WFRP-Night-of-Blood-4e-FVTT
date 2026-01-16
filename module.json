@@ -1,30 +1,30 @@
 {
-  "name": "wfrp4e-night-of-blood",
+  "id": "wfrp4e-night-of-blood",
   "title": "Night of Blood (WFRP 4e)",
   "description": "The classic Warhammer Fantasy Roleplay adventure, perfect for introducing new players. Now updated to include multi-level scenes",
   "version": "3.0",
   "author": "Stuart Kerrigan",
   "dependencies": [
     {
-      "name": "lib-wrapper"
+      "id": "lib-wrapper"
     },
     {
-      "name": "betterroofs"
+      "id": "betterroofs"
     },
     {
-      "name": "wall-height"
+      "id": "wall-height"
     },
     {
-      "name": "levels"
+      "id": "levels"
     },
     {
-      "name": "token-attacher"
+      "id": "token-attacher"
     },
     {
-      "name": "ambientdoors"
+      "id": "ambientdoors"
     },
     {
-      "name": "tokenmagic"
+      "id": "tokenmagic"
     }
   ],
   "esmodules": [],
@@ -41,26 +41,26 @@
     {
       "label": "Night of Blood Actors",
       "type": "Actor",
-      "name": "NightOfBloodActors",
+      "id": "NightOfBloodActors",
       "path": "./packs/night-of-blood-actors.db",
       "package": "wfrp4e-night-of-blood"
     },
     {
       "label": "Night of Blood Scenes",
       "type": "Scene",
-      "name": "NightOfBloodScenes",
+      "id": "NightOfBloodScenes",
       "path": "./packs/night-of-blood-scenes.db",
       "package": "wfrp4e-night-of-blood"
     },
     {
       "label": "Night of Blood Journal Entries",
-      "name": "NightOfBloodJournal",
+      "id": "NightOfBloodJournal",
       "path": "./packs/night-of-blood-journal.db",
       "type": "JournalEntry",
       "package": "wfrp4e-night-of-blood"
     },
     {
-      "name": "NightOfBloodSFX",
+      "id": "NightOfBloodSFX",
       "label": "Night of Blood SFX",
       "path": "./packs/night-of-blood-sfx.db",
       "type": "Playlist",
