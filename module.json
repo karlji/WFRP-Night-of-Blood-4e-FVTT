@@ -21,7 +21,6 @@
       { "id": "wall-height", "type": "module" },
       { "id": "levels", "type": "module" },
       { "id": "token-attacher", "type": "module" },
-      { "id": "ambientdoors", "type": "module" },
       { "id": "tokenmagic", "type": "module" }
     ]
   },
