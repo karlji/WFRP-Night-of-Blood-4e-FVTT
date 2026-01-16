@@ -1,41 +1,32 @@
 {
-  "name": "wfrp4e-night-of-blood",
+  "id": "wfrp4e-night-of-blood",
   "title": "Night of Blood (WFRP 4e)",
   "description": "The classic Warhammer Fantasy Roleplay adventure, perfect for introducing new players. Now updated to include multi-level scenes",
-  "version": "3.0",
+  "version": "3.1.2",
   "author": "Stuart Kerrigan",
-  "dependencies": [
-    {
-      "name": "lib-wrapper"
-    },
-    {
-      "name": "betterroofs"
-    },
-    {
-      "name": "wall-height"
-    },
-    {
-      "name": "levels"
-    },
-    {
-      "name": "token-attacher"
-    },
-    {
-      "name": "ambientdoors"
-    },
-    {
-      "name": "tokenmagic"
-    }
-  ],
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "wfrp4e",
+        "type": "system"
+      }
+    ],
+    "requires": [
+      { "id": "lib-wrapper", "type": "module" },
+      { "id": "betterroofs", "type": "module" },
+      { "id": "wall-height", "type": "module" },
+      { "id": "levels", "type": "module" },
+      { "id": "token-attacher", "type": "module" },
+      { "id": "tokenmagic", "type": "module" }
+    ]
+  },
   "esmodules": [],
   "scripts": [
     "init.js"
-  ],
-  "systems": [
-    "wfrp4e"
-  ],
-  "styles": [
-    "./styles.css"
   ],
   "packs": [
     {
@@ -68,13 +59,9 @@
     }
   ],
   "flags": {
-    "initializationPacks": ["wfrp4e-night-of-blood.NightOfBloodActors", "wfrp4e-night-of-blood.NightOfBloodScenes", "wfrp4e-night-of-blood.NightOfBloodJournal"]
+    "initializationPacks": ["wfrp4e-night-of-blood.NightOfBloodJournal"]
   },
-  "languages": [
-    "en"
-  ],
-  "minimumCoreVersion": "0.9",
-  "manifest": "https://raw.githubusercontent.com/CStuartEKerrigan/WFRP-Night-of-Blood-4e-FVTT/master/module.json",
-  "download": "https://github.com/CStuartEKerrigan/WFRP-Night-of-Blood-4e-FVTT/archive/master.zip",
-  "url": "https://github.com/CStuartEKerrigan/WFRP-Night-of-Blood-4e-FVTT/"
+  "url": "https://github.com/karlji/WFRP-Night-of-Blood-4e-FVTT",
+  "manifest": "https://raw.githubusercontent.com/karlji/WFRP-Night-of-Blood-4e-FVTT/refs/heads/master/module.json",
+  "download": "https://github.com/karlji/WFRP-Night-of-Blood-4e-FVTT/archive/refs/heads/master.zip"
 }
