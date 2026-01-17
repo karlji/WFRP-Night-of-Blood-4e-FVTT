@@ -61,7 +61,7 @@
   "flags": {
     "initializationPacks": ["wfrp4e-night-of-blood.NightOfBloodJournal"]
   },
-  "url": "https://github.com/karlji/WFRP-Night-of-Blood-4e-FVTT",
-  "manifest": "https://raw.githubusercontent.com/karlji/WFRP-Night-of-Blood-4e-FVTT/refs/heads/master/module.json",
-  "download": "https://github.com/karlji/WFRP-Night-of-Blood-4e-FVTT/archive/refs/heads/master.zip"
+  "url": "https://github.com/CStuartEKerrigan/WFRP-Night-of-Blood-4e-FVTT",
+  "manifest": "https://raw.githubusercontent.com/CStuartEKerrigan/WFRP-Night-of-Blood-4e-FVTT/refs/heads/master/module.json",
+  "download": "https://github.com/CStuartEKerrigan/WFRP-Night-of-Blood-4e-FVTT/archive/refs/heads/master.zip"
 }
