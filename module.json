@@ -18,6 +18,8 @@
     "requires": [
       { "id": "lib-wrapper", "type": "module" },
       { "id": "betterroofs", "type": "module" },
+	  { "id": "wall-height", "type": "module" },
+      { "id": "levels", "type": "module" },
       { "id": "token-attacher", "type": "module" },
       { "id": "tokenmagic", "type": "module" }
     ]
